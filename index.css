@@ -136,4 +136,43 @@ footer {
 }
 
 @media screen and (min-width: 480px) {
+  header h1 {
+    font-size: 250%;
+  }
+
+  header ul {
+    margin-top: 0.5em;
+    margin-bottom: 0.7em;
+    font-size: 120%;
+  }
+  .project-card {
+    background-color: #6b006b;
+    height: 415px;
+    width: 400px;
+    border-radius: 3%;
+    margin-bottom: 1em;
+  }
+
+  .project-img {
+    max-width: 400px;
+    max-height: auto;
+    object-fit: cover;
+    margin-top: 1em;
+  }
+
+  .project-card button {
+    margin-top: 5em;
+  }
+
+  .project-card .button-one {
+    margin-top: 4.7em;
+  }
+
+  .project-card .button-two {
+    margin-top: 2em;
+  }
+
+  .project-card .button-three {
+    margin-top: 1.4em;
+  }
 }
