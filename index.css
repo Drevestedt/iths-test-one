@@ -19,18 +19,13 @@ body {
 header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-color: #6b006b;
-  color: #ffd700;
+  height: 25vh;
 }
 
 header h1 {
-  margin: 0.5em 0.5em 0em 0.5em;
-}
-
-header h1:hover {
-  color: #c6a800;
+  margin: 1em 0.5em 0em 0.5em;
 }
 
 header ul {
@@ -39,12 +34,22 @@ header ul {
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   height: 60px;
-  margin-top: 0.5em;
   margin-bottom: 0.5em;
   font-size: 105%;
 }
 
-header ul li:hover {
+header li {
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+  margin-right: 1em;
+}
+
+header a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+header a:hover {
   color: #c6a800;
 }
 
@@ -74,14 +79,24 @@ main {
   margin-top: 0.5em;
 }
 
-#hero button {
+#hero .buttons {
+  margin-top: 4em;
+}
+
+#hero .button {
   font-size: large;
   background-color: #6b006b;
   color: #ffd700;
   padding: 0.5em;
+  text-decoration: none;
   border: none;
   border-radius: 5%;
-  margin: 3em 1em 0 1em;
+  margin: 0 1em 0 1em;
+}
+
+#hero .button:hover {
+  background-color: #570157;
+  color: #c6a800;
 }
 
 /* Project grid */
@@ -96,6 +111,8 @@ main {
   display: flex;
   justify-content: center;
   margin: 0.5em;
+  color: #6b006b;
+  font-weight: 900;
 }
 
 .project-card {
