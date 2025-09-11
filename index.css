@@ -264,6 +264,10 @@ footer {
   }
 
   /* Hero */
+  #hero {
+    min-height: 50vh;
+  }
+
   #hero h2 {
     font-size: 210%;
   }
@@ -319,5 +323,59 @@ footer {
 
   .project-card .button-three {
     margin-top: 2em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* Header and nav */
+  header {
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  header h1 {
+    margin: 0 0 0 1em;
+    font-size: 250%;
+  }
+
+  header ul {
+    display: flex;
+    align-items: center;
+    font-size: medium;
+    margin-left: 5.5em;
+  }
+
+  .nav-li {
+    margin-bottom: 0.5em;
+  }
+
+  /* Hero */
+  #hero {
+    min-height: 60vh;
+  }
+
+  #hero h2 {
+    font-size: 210%;
+  }
+
+  #hero p {
+    font-size: 120%;
+  }
+
+  #hero .buttons {
+    margin-top: 3.5em;
+  }
+
+  #hero .button {
+    font-size: larger;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+
+  /* Project section */
+  #project-grid {
+    display: grid;
   }
 }
