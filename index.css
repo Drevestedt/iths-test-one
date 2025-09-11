@@ -142,19 +142,25 @@ main {
 
 .project-img {
   max-width: 300px;
-  max-height: auto;
+  height: auto;
   object-fit: cover;
   margin-top: 1em;
 }
 
-.project-card button {
+.project-card a {
   background-color: #ffd700;
   padding: 0.5em 0.8em;
   margin-top: 3em;
   font-size: 95%;
+  text-decoration: none;
   border: none;
   border-radius: 5%;
   color: #6b006b;
+}
+
+.project-card a:hover {
+  background-color: #c6a800;
+  columns: #570157;
 }
 
 .project-card .button-one {
@@ -179,7 +185,13 @@ footer {
   font-size: small;
 }
 
+/* Media queries */
 @media screen and (min-width: 480px) {
+  /* Header and nav */
+  header {
+    height: 30vh;
+  }
+
   header h1 {
     font-size: 250%;
   }
@@ -189,6 +201,16 @@ footer {
     margin-bottom: 0.7em;
     font-size: 120%;
   }
+
+  /* Hero */
+  #hero h2 {
+    font-size: 170%;
+  }
+  #hero p {
+    font-size: 120%;
+  }
+
+  /* Project grid */
   .project-card {
     background-color: #6b006b;
     height: 415px;
@@ -199,24 +221,28 @@ footer {
 
   .project-img {
     max-width: 400px;
-    max-height: auto;
+    height: auto;
     object-fit: cover;
     margin-top: 1em;
   }
 
-  .project-card button {
-    margin-top: 5em;
+  .project-card a {
+    font-size: large;
+  }
+
+  .project-card .button-zero {
+    margin-top: 4em;
   }
 
   .project-card .button-one {
-    margin-top: 4.7em;
+    margin-top: 4em;
   }
 
   .project-card .button-two {
-    margin-top: 2em;
+    margin-top: 1.5em;
   }
 
   .project-card .button-three {
-    margin-top: 1.4em;
+    margin-top: 1em;
   }
 }
