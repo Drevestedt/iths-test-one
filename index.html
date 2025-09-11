@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- description-meta-elementet -->
 
     <link rel="icon" type="image/png" href="/test-one/img/fav.png" />
     <link rel="stylesheet" href="index.css" />
@@ -16,9 +17,9 @@
 
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Presentation</li>
-          <li>Projects</li>
+          <li><a href="index.html"></a>Home</li>
+          <li><a href="#"></a>About me</li>
+          <li><a href="#project-grid"></a>Projects</li>
           <li>Contact</li>
         </ul>
       </nav>
@@ -27,7 +28,15 @@
     <!-- Main -->
     <main>
       <!-- Hero -->
-      <section id="hero"></section>
+      <section id="hero">
+        <h2>Junior Fullstack Developer</h2>
+        <p>I build modern, responsive web</p>
+        <p class="p-second">applications using HTML, CSS, and JS</p>
+        <div>
+          <button><a href="#project-grid"></a>Projects</button>
+          <button><a href="#"></a>About me</button>
+        </div>
+      </section>
 
       <!-- Project section -->
       <section id="project-grid">
@@ -55,7 +64,7 @@
         <div class="project-card">
           <h3>Louise Pet Accessories</h3>
           <p>Buy your food and accessories</p>
-          <p class="p-second">for your favourite pet</p>
+          <p class="p-second">for your favorite pet</p>
           <img
             class="project-img"
             src="./img/3.png"
