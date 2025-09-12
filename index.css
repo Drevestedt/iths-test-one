@@ -284,7 +284,7 @@ footer {
     font-size: larger;
   }
 
-  /* Projects */
+  /* Project section */
   #project-grid h2 {
     font-size: 200%;
   }
@@ -376,6 +376,66 @@ footer {
 
   /* Project section */
   #project-grid {
+    margin-top: 1em;
+    /*background: linear-gradient(135deg, #c6a800 0%, #6b006b 180%);
+    color: #faf9f6;*/
+  }
+
+  #project-grid h2 {
+    font-size: 100%;
+  }
+
+  #projects {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr;
+    gap: 2.5em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+  }
+
+  #project-grid h2 {
+    font-size: 180%;
+  }
+
+  .project-card {
+    height: 450px;
+    width: auto;
+    margin: 0;
+  }
+
+  .project-card h3 {
+    font-size: 140%;
+  }
+
+  .project-card p {
+    font-size: 110%;
+  }
+
+  .project-img {
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 2em;
+  }
+
+  .project-card .button-zero {
+    margin-top: 5em;
+    font-size: 100%;
+  }
+
+  .project-card .button-one {
+    margin-top: 5em;
+    font-size: 100%;
+  }
+
+  .project-card .button-two {
+    margin-top: 2.1em;
+    font-size: 100%;
+  }
+
+  .project-card .button-three {
+    margin-top: 1.2em;
+    font-size: 100%;
   }
 }
