@@ -1,5 +1,7 @@
+/* Hero section */
 #hero {
-  background: linear-gradient(135deg, #6b006b46 0%, #6b006bb1 110%);
+  min-height: 35vh;
+  background: linear-gradient(135deg, #6b006b64 0%, #6b006bb1 110%);
   justify-content: flex-start;
 }
 
@@ -9,4 +11,12 @@
 
 #hero p {
   color: #faf9f6;
+}
+
+#hero .para-two {
+  margin-top: 1em;
+}
+
+#hero .para-three {
+  margin-top: 1em;
 }
