@@ -1,0 +1,12 @@
+#hero {
+  background: linear-gradient(135deg, #6b006b46 0%, #6b006bb1 110%);
+  justify-content: flex-start;
+}
+
+#hero h2 {
+  color: #ffd700;
+}
+
+#hero p {
+  color: #faf9f6;
+}
