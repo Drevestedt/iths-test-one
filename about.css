@@ -20,3 +20,64 @@
 #hero .para-three {
   margin-top: 1em;
 }
+
+/* Skills section */
+#skills h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  color: #6b006b;
+}
+
+#skills ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 165%;
+  color: #6b006b;
+}
+
+#skills .ul-one li {
+  margin-top: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+#skills .ul-two li {
+  margin-top: 0.5em;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+}
+
+#skills .ul-three li {
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+#cta-buttons {
+  min-height: 22vh;
+  background: linear-gradient(135deg, #ffd90071 0%, #ffd9007d 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+}
+
+#cta-buttons a {
+  font-size: large;
+  background-color: #6b006b;
+  color: #ffd700;
+  padding: 0.5em;
+  text-decoration: none;
+  border: none;
+  border-radius: 5%;
+}
+
+#cta-buttons .button-zero {
+  margin-top: 2em;
+}
+
+#cta-buttons .button-one {
+  margin-top: 1.5em;
+}
