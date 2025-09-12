@@ -164,7 +164,7 @@ main {
 
 .project-card a:hover {
   background-color: #c6a800;
-  columns: #570157;
+  color: #570157;
 }
 
 .project-card .button-one {
@@ -461,7 +461,7 @@ footer .social a {
   #projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-row: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 2.5em;
     margin-top: 1em;
     margin-bottom: 3em;
