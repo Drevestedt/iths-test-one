@@ -450,8 +450,6 @@ footer .social a {
   /* Project section */
   #project-grid {
     margin-top: 1em;
-    /*background: linear-gradient(135deg, #c6a800 0%, #6b006b 180%);
-    color: #faf9f6;*/
   }
 
   #project-grid h2 {
@@ -546,7 +544,7 @@ footer .social a {
 @media screen and (min-width: 1200px) {
   header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   header h1 {
@@ -562,22 +560,33 @@ footer .social a {
   }
 
   footer {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 
 @media screen and (min-width: 1400px) {
+  /* Header and nav */
+  header {
+    justify-content: space-between;
+  }
+
+  /* Projects section */
+  #projects {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 5em;
+  }
+
+  /* Footer */
+  footer {
+    justify-content: space-between;
+  }
+
   footer p {
     margin-left: 2em;
   }
 
   footer .footer-contacts {
     margin-right: 1em;
-  }
-
-  #projects {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin-bottom: 5em;
   }
 }
